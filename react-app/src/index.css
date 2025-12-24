@@ -1,0 +1,104 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(192, 192, 192);
+}
+.header-center{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.header{
+  text-align: center;
+  align-content: center;
+  color: white;
+  padding: 35px;
+  margin: 15px;
+  height: 150px;
+  background-color: black;
+  border-radius: 3px;
+  width: 100%;
+  font-size: 25px;
+  background-image: linear-gradient(to bottom right, gray, black);
+}
+.main-container-center
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-container
+{
+  /*text-align: center;*/
+  width: 860px;
+  background-color: white;
+  margin: 25px;
+  padding: 35px;
+  border-radius: 5px;
+  box-shadow: -7px 7px gray;
+}
+.to-do-form
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  border: 2px dashed black;
+
+}
+.to-do-input{
+  width: 300px;
+  height: 35px;
+  margin: 15px;
+  text-align: center;
+}
+.submit-btn{
+  width: 200px;
+  height: 35px;
+  background-image: linear-gradient(to bottom left, gray, white);
+  color: white;
+  font-size: 1.1em;
+  border-radius: 7px;
+  box-shadow: 0px 3px gray;
+}
+.submit-btn:hover{
+  background-image: linear-gradient(to bottom right, black, white);
+}
+
+.card-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px 50px;
+}
+.card{
+padding: 0px;
+width: 400px;
+height: 200px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+
+}
+.card-img{
+  width: 60px;
+  height: 60px;
+}
+
+.footer{
+  color: black;
+  padding: 35px;
+  margin: 15px;
+  height: 30px;
+  border-radius: 3px;
+  box-shadow: -2px 3px darkgray;
+  font-size: 20px;
+  background-image: linear-gradient(to bottom right, gray, white);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
